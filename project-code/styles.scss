@@ -1,0 +1,51 @@
+$space: 20px;
+$pale-green: #dbf0db;
+.box {
+  margin-top:$space;
+  padding: $space $space 40px;
+  background-color: #f3f3f3;
+  border: 1px solid lightgrey;
+  height: 100%;
+}
+
+.panel {
+  border: 1px solid $pale-green;
+  margin-top: 5px;
+  .panel-title {
+    a {
+      background-color: $pale-green;
+      width: 100%;
+      text-align: left;
+      color: green;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+h6 {
+  padding-bottom: $space;
+  margin-bottom:$space;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+.container {
+  background-color: white;
+  padding-top: $space;
+  padding-bottom: $space;
+}
+
+button {
+  margin-top: $space;
+}
+.btn-default {
+  margin-left: 5px;
+}
+.modal-body {
+  margin-bottom: 50px;
+}
+
+input {
+  margin-bottom: 15px;
+}
